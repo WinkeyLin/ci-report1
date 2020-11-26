@@ -4,8 +4,7 @@ language: python
 python:
 - 3.8
 install:
-- git clone https://github.com/kirainmoe/auto-daily-health-report healthreport
-- cd healthreport
+- git clone https://github.com/WinkeyLin/ci-health-report
 - pip install -r requirements.txt
 script:
 - python checkin.py ${xmu_username} ${xmu_password}
